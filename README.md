@@ -28,17 +28,8 @@ Purpose of this report is to Elevating Traditional Stock Analysis with Advanced 
 - [`BSE_Derivative_data.csv`](https://ishaan145.github.io/Equity-Research/Main/Derivative/Data/BSE_Derivative_data.csv) – printable report version
 - [`BSE_Derivative_data.csv`](https://ishaan145.github.io/Equity-Research/Main/Derivative/Data/BSE_Derivative_data.csv) – simulated outcome statistics
 - [`BSE_Derivative_data.csv`](https://ishaan145.github.io/Equity-Research/Main/Derivative/Data/BSE_Derivative_data.csv) –  [View Option Data](https://ishaan145.github.io/Equity-Research/Main/Derivative/Data/Option_data.html)
-
-## Disclaimer
-<p align="justify">
-All data used is for educational purposes. No investment advice is provided. This report is intended purely for educational purposes.
-All data presented in this report has been sourced from publicly available data as of 08/07/2025, information on the National Stock Exchange of India Ltd (NSE) website: https://www.nseindia.com/get-quotes/equity?symbol=BSE 
-</p>
 ---
 
-**Author**: Ishaan Saxena  
-**Release**: You can view the project document by downloading the [**Project Report**](https://ishaan145.github.io/Equity-Research/Main/Derivative/Data/BSE_Derivative_data.pdf).  
-**Released On** August 2025
 
 ## Overview
 <p align="justify">
@@ -132,29 +123,6 @@ BSE-Stock-Analysis/
     └── methodology.md
 ```
 
-##  Key Findings
-
-<div align="center">
-  <h3> Investment Thesis: CAUTIOUS STANCE</h3>
-</div>
-
-###  Bearish Indicators
-- **Overvaluation**: P/E of 86.5x vs peers (20-45x)
-- **Technical Breakdown**: Below EMA(20) and EMA(50)
-- **High IV**: Market expects significant volatility
-- **SEBI Regulatory Impact**: Jane Street ban affecting derivative volumes
-
-###  Key Risks
-- **Valuation Stretch**: Highest P/E among global exchange operators
-- **Technical Weakness**: Strong bearish momentum
-- **Regulatory Headwinds**: Derivative volume concerns
-- **Competition**: Upcoming NSE IPO
-
-###  Potential Catalysts
-- **Strong Fundamentals**: Record Q3 FY25 performance
-- **Market Leadership**: Technology and brand advantages
-- **Economic Moat**: Sustainable competitive advantages
-
 
 ##  Data Sources
 
@@ -163,8 +131,15 @@ BSE-Stock-Analysis/
 - **Option Chain**: Real-time derivative market data
 - **Financial Statements**: Public filings and quarterly reports
 
-##  Disclaimer
+---
+ 
+**Release**: You can view the project document by downloading the [**Project Report**](https://ishaan145.github.io/Equity-Research/Main/Derivative/Data/BSE_Derivative_data.pdf).  
 
+##  Disclaimer
+<p align="justify">
+All data used is for educational purposes. No investment advice is provided. This report is intended purely for educational purposes.
+All data presented in this report has been sourced from publicly available data as of 08/07/2025, information on the National Stock Exchange of India Ltd (NSE) website: https://www.nseindia.com/get-quotes/equity?symbol=BSE 
+</p>
 <div align="center">
   <p><strong>IMPORTANT NOTICE</strong></p>
 </div>
@@ -180,7 +155,7 @@ The quantitative models and simulations presented are based on historical data a
 ---
 
 <div align="center">
-  <h3>📧 Contact & Collaboration</h3>
+  <h3> Contact </h3>
   <p>
     <strong>Author:</strong> Ishaan Saxena<br>
     <strong>Release Date:</strong> August 2025<br>
@@ -189,8 +164,8 @@ The quantitative models and simulations presented are based on historical data a
   
   <p>
     <a href="mailto:your.email@domain.com"> Email</a> |
-    <a href="https://linkedin.com/in/yourprofile"> LinkedIn</a> |
-    <a href="https://github.com/yourusername"> GitHub</a>
+    <a href="https://linkedin.com/in/ishaansaxena1"> LinkedIn</a> |
+    <a href="https://github.com/ishaan145"> GitHub</a>
   </p>
 </div>
 
