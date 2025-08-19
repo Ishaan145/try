@@ -138,14 +138,7 @@ BSE-Stock-Analysis/
 ##  Disclaimer
 <p align="justify">
 All data used is for educational purposes. No investment advice is provided. This report is intended purely for educational purposes.
-All data presented in this report has been sourced from publicly available data as of 08/07/2025, information on the National Stock Exchange of India Ltd (NSE) website: https://www.nseindia.com/get-quotes/equity?symbol=BSE 
-</p>
-<div align="center">
-  <p><strong>IMPORTANT NOTICE</strong></p>
-</div>
-
-<p align="justify">
-<strong>This report is intended purely for educational purposes.</strong> All data presented has been sourced from publicly available information as of July 8, 2025. This analysis does not constitute investment advice, and readers should conduct their own research and consult with qualified financial advisors before making any investment decisions.
+All data presented in this report has been sourced from publicly available data as of July 8, 2025, information on the National Stock Exchange of India Ltd (NSE) website: https://www.nseindia.com/get-quotes/equity?symbol=BSE 
 </p>
 
 <p align="justify">
