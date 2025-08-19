@@ -41,17 +41,15 @@ The primary objective of this report is to demonstrate how a foundational stock 
 This report is structured to provide a comprehensive and integrated assessment of BSE Ltd. It commences with a review of the existing fundamental and technical analyses, building upon the initial research provided. Subsequently, it introduces a layer of quantitative enhancements, detailing how Python-based methodologies can be applied to deepen the understanding of stock behavior and market dynamics. The analytical approach emphasizes the synthesis of observations from all these layers fundamental, technical, and quantitative to deliver a holistic and robust evaluation of BSE Ltd.'s investment profile and future outlook.
 </p>
 
-##  Quantitative Models
+##  Simulation Parameters
 
-###  Monte Carlo Simulation
-**Simulation Parameters:**
-```python
-S0 = 2376.30      # Current stock price
-mu = 0.12         # Expected annual return
-sigma = 0.45      # Annual volatility
-T = 1             # Time horizon (1 year)
-steps = 252       # Trading days
+S0 = 2376.30      (Current stock price)
+mu = 0.12         (Expected annual return)
+sigma = 0.45      (Annual volatility)
+steps = 252       (Trading days)
+T = 17days        (Expiry time for option)
 n_simulations = 1000
+
 ```
 
 **Key Results:**
@@ -59,32 +57,7 @@ n_simulations = 1000
 - **Median Ending Price**: ₹2,441.62
 - **95% Confidence Interval**: ₹1,172.30 - ₹5,171.12
 
-###  Other Models Implemented
-- **Linear Regression**: EPS vs Stock Price correlation
-- **Black-Scholes Model**: European option pricing
-- **Geometric Brownian Motion**: Price path simulation
-
-##  Technical Analysis
-
-### Moving Averages (EMA)
-| EMA Period | Level | Status | Signal |
-|------------|-------|--------|---------|
-| **EMA(20)** | ₹2,693.10 |  Resistance | Bearish |
-| **EMA(50)** | ₹2,534.77 |  Resistance | Bearish |
-| **EMA(100)** | ₹2,273.15 |  Support | Critical |
-
-###  Key Support & Resistance
-- **Immediate Support**: ₹2,400 (Strong OI buildup)
-- **Resistance Zone**: ₹2,550 - ₹2,600
-- **Critical Support**: ₹2,273 (EMA 100)
-
-###  Option Chain Insights
-- **Max Pain Zone**: ₹2,500
-- **High Call OI**: ₹2,600-₹2,700 strikes
-- **High Put OI**: ₹2,400-₹2,500 strikes
-- **Implied Volatility**: 45-47% (elevated)
-
-## ⚙️ Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 ```bash
@@ -94,13 +67,13 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy yfinance
 ### Quick Start
 ```python
 # Clone the repository
-git clone https://github.com/yourusername/BSE-Stock-Analysis.git
+git clone https://github.com/ishaan145/Equity-Research.git
 
 # Navigate to project directory
-cd BSE-Stock-Analysis
+cd Equity-Research
 
 # Run the analysis
-python bse_analysis.py
+python Equity_Research.py
 ```
 
 ##  Project Structure
@@ -110,10 +83,9 @@ BSE-Stock-Analysis/
 ├──  README.md         
 ├──  report.html 
 ├──  bse_analysis.py    
-├──  data/
+├──  main
 │   ├── BSE_Derivative_data.csv
 │   └── historical_prices.csv
-├──  images/
 │   ├── monte_carlo_simulation.png
 │   ├── ema_analysis.png
 │   └── fibonacci_levels.png
@@ -137,18 +109,13 @@ BSE-Stock-Analysis/
 
 ##  Disclaimer
 <p align="justify">
-All data used is for educational purposes. No investment advice is provided. This report is intended purely for educational purposes.
-All data presented in this report has been sourced from publicly available data as of July 8, 2025, information on the National Stock Exchange of India Ltd (NSE) website: https://www.nseindia.com/get-quotes/equity?symbol=BSE 
-</p>
-
-<p align="justify">
-The quantitative models and simulations presented are based on historical data and mathematical assumptions that may not accurately predict future market behavior. Past performance does not guarantee future results.
+All data used is for educational purposes. No investment advice is provided. This report is intended purely for educational purposes.The quantitative models and simulations presented are based on historical data and mathematical assumptions that may not accurately predict future market behavior. All data presented in this report has been sourced from publicly available data as of July 8, 2025, information on the National Stock Exchange of India Ltd (NSE) website: https://www.nseindia.com/get-quotes/equity?symbol=BSE 
 </p>
 
 ---
 
 <div align="center">
-  <h3> Contact </h3>
+  <h3>Contact</h3>
   <p>
     <strong>Author:</strong> Ishaan Saxena<br>
     <strong>Release Date:</strong> August 2025<br>
@@ -156,7 +123,7 @@ The quantitative models and simulations presented are based on historical data a
   </p>
   
   <p>
-    <a href="mailto:your.email@domain.com"> Email</a> |
+    <a href="mailto:23mc3027@rfipt.ac.in"> Email</a> |
     <a href="https://linkedin.com/in/ishaansaxena1"> LinkedIn</a> |
     <a href="https://github.com/ishaan145"> GitHub</a>
   </p>
@@ -166,5 +133,5 @@ The quantitative models and simulations presented are based on historical data a
 
 <div align="center">
   <p><em> If you found this research helpful, please consider starring this repository!</em></p>
-  <p><strong>🔗 <a href="./report.html">Access Complete Interactive Report</a></strong></p>
+  <p><strong><a href="./report.html">Access Complete Interactive Report</a></strong></p>
 </div>
